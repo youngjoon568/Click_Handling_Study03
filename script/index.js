@@ -6,7 +6,7 @@ const handleClick = (listTarget, listArr, listClass) => {
     [...listArr].map(t => {
         t.classList.remove(listClass);
     });
-    listTarget.classList.add(listClass);
+    listTarget.classList.add(listClass)
 };
 
 for(let i = 0; i < $items.length; i++) {
