@@ -10,7 +10,7 @@ const handleClick = (listTarget, listArr, listClass) => {
 };
 
 for(let i = 0; i < $items.length; i++) {
-    $items[i].addEventListener("click", (e) => {
+    $items[i].addEventListener("click", e => {
         e.preventDefault();
         handleClick($items[i], $items, "active");
         handleClick($divs[i], $divs, "active");
